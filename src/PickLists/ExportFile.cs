@@ -139,7 +139,7 @@ namespace BrickAtHeart.LUGTools.PicklistGenerator
 
                 if (rowCount <= parts.Count)
                 {
-                    for (int index = 0; index < people.Count + 5; index++)
+                    for (int index = 0; index < people.Count; index++)
                     {
                         if (int.TryParse(fields[index * 2 + options.PersonRowStartColumn], out int quantity) && quantity > 0)
                         {
